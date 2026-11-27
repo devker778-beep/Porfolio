@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050a07">
+  <title>My Journey of Self-Discovery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="site-loader" role="status" aria-live="polite">
+    <div class="site-loader-binary" aria-hidden="true"></div>
+    <div class="site-loader-content">
+      <span class="site-loader-mark" aria-hidden="true">M</span>
+      <p>Initializing your journey</p>
+      <div class="site-loader-track" role="progressbar" aria-label="Page loading" aria-valuemin="1" aria-valuemax="100" aria-valuenow="1"><span></span></div>
+      <span class="site-loader-status" aria-hidden="true">LOADING <span class="site-loader-percent">1</span>%</span>
+    </div>
+  </div>
+  <div class="binary-rain" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Back to top">
+      <span class="brand-mark">M</span>
+      <span>My Journey</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span>
+      <span class="sr-only">Open menu</span>
+    </button>
+    <nav id="nav" class="nav" aria-label="Primary navigation">
+      <a href="#who-am-i">Who Am I</a>
+      <a href="#dimensions">My Dimensions</a>
+      <a href="#future">Future</a>
+      <a href="#reflection">Reflection</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> Understanding the Self</p>
+        <h1>My Journey of<br><em>Self-Discovery</em></h1>
+        <p class="hero-lead">An honest exploration of the person I am, the influences that shape me, and the person I am becoming.</p>
+      </div>
+      <div class="hero-art reveal" data-delay="150">
+        <svg class="id-lanyard" aria-hidden="true">
+          <path class="lanyard-shadow"></path>
+          <path class="lanyard-ribbon"></path>
+          <path class="lanyard-highlight"></path>
+        </svg>
+        <span class="lanyard-neck" aria-hidden="true"></span>
+        <button class="portrait-card id-card" type="button" aria-label="Student ID card. Drag it or use the arrow keys to make it swing.">
+          <span class="id-card-clip" aria-hidden="true"></span>
+          <span class="id-card-face">
+            <span class="id-card-heading"><span>STUDENT PROFILE</span><span class="id-card-seal" aria-hidden="true"></span></span>
+            <span class="id-photo">
+              <img class="profile-photo" src="assets/profile.png" alt="" draggable="false">
+              <span class="portrait-matrix" aria-hidden="true"></span>
+            </span>
+            <span class="id-card-name">EL JOHN ABANTO</span>
+            <span class="id-card-focus">1ST YEAR FRESHMAN</span>
+            <span class="id-card-footer"><span>BSIT · STUDENT</span><span class="id-card-bars" aria-hidden="true"></span></span>
+          </span>
+        </button>
+        <div class="hero-note"><strong>01</strong><span>My story</span></div>
+      </div>
+    </section>
+
+    <section id="who-am-i" class="section who-section">
+      <article class="about-entry reveal">
+        <span class="about-entry-index" aria-hidden="true">01</span>
+        <div class="about-entry-copy">
+          <p class="dimension-tag">My story / About me</p>
+          <h2>Who <em>Am I?</em></h2>
+          <p class="about-entry-prompt">Every lesson, challenge, and dream is part of the person I’m becoming.</p>
+          <button class="dimension-open about-open" type="button">Click here to view the full page <span aria-hidden="true">↗</span></button>
+        </div>
+        <div class="about-entry-visual" aria-hidden="true"><span>ME</span><i></i></div>
+      </article>
+      <div class="who-grid">
+        <article class="bio-card reveal">
+          <p class="eyebrow">My biography</p>
+          <h3>Hello, I am <span class="editable" contenteditable="true" data-placeholder="Your Name">El John Abanto</span>.</h3>
+          <p class="editable-block" contenteditable="true" data-placeholder="Write a short personal biography: what matters to you, what you are learning, and what makes your story unique.">I am a first-year Bachelor of Science in Information Technology student at Zamboanga Polytechnic State University. I am still learning, discovering my abilities, and understanding myself through the challenges I experience. I came from Siocon, Zamboanga del Norte, and graduated from Julian Soriano Memorial Comprehensive School with the ICT–Computer Systems Servicing strand. I want to improve, learn new things, and become a developer who can create useful applications and websites for my community. My family, education, and experiences have taught me the value of respect, kindness, responsibility, and perseverance.</p>
+        </article>
+        <aside class="identity-card reveal" data-delay="100">
+          <p class="card-label">The parts of me</p>
+          <div class="editable-list">
+            <span contenteditable="true" data-placeholder="Interest">Technology</span>
+            <span contenteditable="true" data-placeholder="Hobby">Learning to code</span>
+            <span contenteditable="true" data-placeholder="Strength">Determination</span>
+            <span contenteditable="true" data-placeholder="Value">Responsibility</span>
+          </div>
+        </aside>
+      </div>
+      <blockquote class="quote reveal">
+        <span>“</span>
+        <p contenteditable="true" data-placeholder="Add a meaningful quote that reflects your outlook on life.">Every experience is an opportunity to learn and become a better person.</p>
+        <cite contenteditable="true" data-placeholder="— Author">El John Abanto</cite>
+      </blockquote>
+    </section>
+
+    <section id="dimensions" class="section dimensions-section">
+      <header class="section-heading reveal">
+        <p class="section-number">02 / The dimensions</p>
+        <h2>The Many <em>Layers</em> of Me</h2>
+      </header>
+
+      <div class="dimension-list">
+        <article id="philosophical" class="dimension reveal">
+          <div class="dimension-index">02.1</div>
+          <div class="dimension-copy">
+            <p class="dimension-tag">Philosophical</p>
+            <h3>What Defines Me?</h3>
+            <p class="prompt">How has a philosopher’s perspective shaped my personal philosophy?</p>
+            <div class="reflection editable-block" contenteditable="true" data-placeholder="Write 150–200 words reflecting on your personal philosophy and connect it to at least one philosopher discussed in class.">I agree most with John Locke’s perspective on the self. Locke believed that personal identity is connected to consciousness and memory. Our memories and awareness of past experiences help us understand who we are, and experiences play an important role in shaping our identity. I agree because everything I have experienced has influenced the person I am today. My education, relationships, challenges, and mistakes have taught me lessons that help me make better decisions. As a student, I sometimes struggle to understand lessons or complete school activities, but these experiences teach me patience, responsibility, and determination. My past also guides my present decisions and helps me recognize what I need to improve. I am not the same person I was years ago because I have gained knowledge and experienced change. For me, Locke’s philosophy explains me best: my identity is connected to my memories, experiences, and consciousness.</div>
+            <button class="dimension-open" type="button">Click here to view the full page <span aria-hidden="true">↗</span></button>
+          </div>
+          <div class="dimension-symbol philosophical-symbol" aria-hidden="true"><span>?</span></div>
+        </article>
+
+        <article id="sociological" class="dimension reveal">
+          <div class="dimension-index">02.2</div>
+          <div class="dimension-copy">
+            <p class="dimension-tag">Sociological</p>
+            <h3>Me and Society</h3>
+            <p class="prompt">How have the people around me shaped who I am?</p>
+            <div class="reflection editable-block" contenteditable="true" data-placeholder="Reflect on your family, friends, school, and community. Connect one or more experiences to Mead or Cooley.">The people around me have played an important role in shaping who I am. My father taught me responsibility, hard work, and strength; my mother taught me care, respect, and patience. My uncle and aunt also influenced me through their advice and examples of kindness and independence. My teachers have shown me the importance of education, discipline, and perseverance, while my friends and classmates have helped me improve my communication and teamwork skills. These relationships connect to George Herbert Mead’s theory that identity develops through social interaction. I believe this is true because the way I think and behave has been influenced by every person I meet. Society also helps me understand my roles and responsibilities as a student, family member, friend, and community member. These experiences have made me more mature and responsible. I cannot develop completely on my own because other people contribute to my growth and understanding.</div>
+            <button class="dimension-open" type="button">Click here to view the full page <span aria-hidden="true">↗</span></button>
+          </div>
+          <div class="dimension-symbol sociological-symbol" aria-hidden="true"><span></span><span></span><span></span></div>
+        </article>
+
+        <article id="anthropological" class="dimension reveal">
+          <div class="dimension-index">02.3</div>
+          <div class="dimension-copy">
+            <p class="dimension-tag">Anthropological</p>
+            <h3>My Cultural Identity</h3>
+            <p class="prompt">How have culture and tradition influenced my values?</p>
+            <div class="reflection editable-block" contenteditable="true" data-placeholder="Describe authentic traditions, customs, beliefs, or practices that contribute to your identity.">My cultural identity is an important part of who I am. Growing up in Siocon, Zamboanga del Norte, has connected me to my community and the people around me. Being part of Filipino society has influenced how I understand respect, family, kindness, and responsibility. I appreciate the value of showing respect to parents, elders, teachers, and community members. Treating people politely and helping others are important ways of demonstrating good character. My family has also taught me to care for one another, listen to advice, and remain responsible. Culture teaches me that people may have different beliefs, traditions, languages, and ways of living. Instead of judging others, I believe we should respect their differences and seek to understand them. This helps us build good relationships and peaceful communities. My cultural identity is not only about where I come from, but also about the values and lessons that guide my everyday actions.</div>
+            <button class="dimension-open" type="button">Click here to view the full page <span aria-hidden="true">↗</span></button>
+          </div>
+          <div class="dimension-symbol cultural-symbol" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </div>
+        </article>
+
+        <article id="psychological" class="dimension reveal">
+          <div class="dimension-index">02.4</div>
+          <div class="dimension-copy">
+            <p class="dimension-tag">Psychological</p>
+            <h3>Understanding My Inner Self</h3>
+            <p class="prompt">What have I discovered about my personality and emotions?</p>
+            <div class="reflection editable-block" contenteditable="true" data-placeholder="Reflect on your personality, emotions, strengths, weaknesses, challenges, and self-concept.">Understanding my psychological self helps me recognize my personality, emotions, strengths, weaknesses, and behavior. I consider myself someone who is still learning and improving. One of my strengths is my willingness to learn new things, especially technology and computers. I enjoy developing my skills and discovering what I can achieve. I also value responsibility, respect, and kindness, which help me build relationships and handle my responsibilities. However, I sometimes struggle to understand lessons immediately or complete difficult activities. I may feel pressured or unsure of my abilities when I face challenging tasks. Instead of allowing those challenges to stop me, I try to learn from my mistakes and find ways to improve. Personal growth takes time, and making mistakes does not mean that I cannot succeed. Mistakes help me recognize my weaknesses and become more determined. I also understand that emotions influence how I respond to situations. Becoming patient and managing my feelings help me make better decisions.</div>
+            <button class="dimension-open" type="button">Click here to view the full page <span aria-hidden="true">↗</span></button>
+          </div>
+          <div class="dimension-symbol mind-symbol" aria-hidden="true"><span></span></div>
+        </article>
+
+        <article id="physical" class="dimension reveal">
+          <div class="dimension-index">02.5</div>
+          <div class="dimension-copy">
+            <p class="dimension-tag">Physical</p>
+            <h3>Appreciating Who I Am</h3>
+            <p class="prompt">How has my perception of my physical self changed?</p>
+            <div class="reflection editable-block" contenteditable="true" data-placeholder="Discuss body image, self-care, body positivity, and self-acceptance using your own experience.">My physical self is one part of my identity that I am learning to understand and appreciate. Physical appearance is often one of the first things people notice, but it does not completely define a person’s worth. Everyone has different physical features, and each person is unique. As I grow older, I realize that taking care of my body is important. Practicing proper hygiene, maintaining cleanliness, getting enough rest, eating healthy food, and staying physically active are simple ways to become more responsible for my well-being. I also understand that accepting myself is important. People may feel insecure because of comparisons or society’s expectations, but we should appreciate our bodies instead of focusing only on imperfections. My understanding of the physical self has taught me that self-acceptance is more valuable than trying to look like someone else. I want to focus on becoming healthier rather than comparing my appearance with others. Appreciating myself means accepting who I am, respecting my body, and developing healthy habits.</div>
+            <button class="dimension-open" type="button">Click here to view the full page <span aria-hidden="true">↗</span></button>
+          </div>
+          <div class="dimension-symbol physical-symbol" aria-hidden="true"><span></span><i></i></div>
+        </article>
+
+        <article id="digital" class="dimension reveal">
+          <div class="dimension-index">02.6</div>
+          <div class="dimension-copy">
+            <p class="dimension-tag">Digital</p>
+            <h3>Who Am I Online?</h3>
+            <p class="prompt">Does my online identity truly represent who I am?</p>
+            <div class="reflection editable-block" contenteditable="true" data-placeholder="Compare your real-life and online identities, and discuss responsible digital citizenship.">Technology and social media are important parts of everyday life, especially for students. As an Information Technology student, I use digital technology to communicate, learn, explore information, and develop my knowledge about computers. My online identity is connected to my interests, activities, and the way I communicate on digital platforms. I enjoy discovering how applications and websites work, although I understand that the person I show online may not represent everything about my real personality. Personally, I interact with people in everyday situations; online, I communicate through messages and posts. Both forms of communication are important, so I should remain respectful and responsible in both. Being a responsible digital citizen means thinking carefully before posting or sharing information. I should protect my privacy and personal information, avoid spreading false information, respect others, and use appropriate language. Everything shared online can affect how people see us. My digital identity represents some parts of who I am, but it cannot completely show my thoughts, feelings, and experiences.</div>
+            <button class="dimension-open" type="button">Click here to view the full page <span aria-hidden="true">↗</span></button>
+          </div>
+          <div class="dimension-symbol digital-symbol" aria-hidden="true"><span></span><i></i></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="future" class="section future-section">
+      <header class="section-heading reveal">
+        <p class="section-number">03 / My future</p>
+        <h2>Who I Want to <em>Become</em></h2>
+      </header>
+      <div class="vision-grid">
+        <article class="vision-card coral reveal">
+          <span class="vision-year">01–2 Years</span>
+          <h3 contenteditable="true" data-placeholder="Near-term goal">Build My Foundation</h3>
+          <p contenteditable="true" data-placeholder="Describe a realistic first step.">Complete my first-year requirements, improve my programming and computer systems knowledge, develop better study habits, and become more confident communicating with others.</p>
+          <button class="vision-open" type="button">Click here to view the full page <span aria-hidden="true">↗</span></button>
+        </article>
+        <article class="vision-card blue reveal" data-delay="100">
+          <span class="vision-year">3–5 Years</span>
+          <h3 contenteditable="true" data-placeholder="Growth goal">Grow Through Practice</h3>
+          <p contenteditable="true" data-placeholder="Describe the person you hope to become.">Complete my BSIT degree, build personal projects, improve my website and application development skills, and gain practical experience through projects or internships.</p>
+          <button class="vision-open" type="button">Click here to view the full page <span aria-hidden="true">↗</span></button>
+        </article>
+        <article class="vision-card yellow reveal" data-delay="200">
+          <span class="vision-year">5–10 Years</span>
+          <h3 contenteditable="true" data-placeholder="Long-term vision">Become an IT Professional</h3>
+          <p contenteditable="true" data-placeholder="Describe your long-term aspiration.">Become a professional developer, find a stable job in the IT industry, become financially independent, support my family, and develop useful technology for my community.</p>
+          <button class="vision-open" type="button">Click here to view the full page <span aria-hidden="true">↗</span></button>
+        </article>
+      </div>
+      <div class="action-plan reveal">
+        <p class="card-label">My personal development plan</p>
+        <ol>
+          <li><span>01</span><strong contenteditable="true" data-placeholder="Build a skill">Practice programming and problem-solving</strong></li>
+          <li><span>02</span><strong contenteditable="true" data-placeholder="Create a habit">Study consistently and manage my time</strong></li>
+          <li><span>03</span><strong contenteditable="true" data-placeholder="Seek an opportunity">Build projects and pursue internships</strong></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="reflection" class="section reflection-section">
+      <div class="reflection-heading reveal">
+        <p class="section-number">04 / Final reflection</p>
+        <h2>My Journey Toward<br><em>Self-Understanding</em></h2>
+      </div>
+      <article class="final-reflection reveal">
+        <span class="reflection-mark">“</span>
+        <div class="editable-block" contenteditable="true" data-placeholder="Write a 300–500-word personal reflection addressing the five guide questions in the requirement."><p>Throughout this Understanding the Self course, I have learned many things about myself that I did not fully recognize before. One important realization is that understanding myself is a continuous process. My identity is not based only on my name, appearance, or background. It is also shaped by my experiences, memories, relationships, values, and decisions. Every experience contributes to the person I am becoming.</p><p>The topic that influenced me the most was the Philosophical Self, especially John Locke’s perspective on personal identity. His ideas about consciousness, memory, and experience helped me understand how my past influences my present. I realized that the lessons I learned from mistakes and challenges are important because they help me make better decisions. My experiences as a student have taught me patience, responsibility, and determination.</p><p>At the beginning of the semester, I did not think deeply about the different factors that shaped my identity. I understood myself mostly through my personality, interests, and everyday experiences. As we discussed the perspectives of the self, I began to recognize that my family, friends, school, culture, environment, and personal experiences all contribute to who I am.</p><p>One personal challenge that helped me grow was dealing with difficult school activities and lessons that I could not immediately understand. Sometimes I struggled to complete my tasks, but these experiences taught me not to give up easily. I learned that making mistakes is normal and that improvement requires patience and effort.</p><p>I will apply the lessons from this course by becoming more aware of my actions, decisions, emotions, and responsibilities. I will continue to respect others, accept myself, learn from mistakes, and develop my abilities. As a BSIT student, I want to improve my knowledge and skills so I can achieve my dream of becoming a developer and creating useful applications or websites for my community.</p><p>Overall, this course taught me that self-discovery does not end after one semester. There will always be new experiences and lessons that help me understand myself better. I may not know exactly what the future holds, but I am willing to learn, grow, and become a better version of myself.</p></div>
+      </article>
+    </section>
+  </main>
+
+  <section class="dimension-page" id="about-page" role="dialog" aria-modal="true" aria-labelledby="about-page-title" hidden>
+    <div class="dimension-page-top">
+      <button class="about-back dimension-back" type="button"><span aria-hidden="true">←</span> Back</button>
+      <p class="dimension-page-index">01 / About me</p>
+    </div>
+    <div class="dimension-page-content about-page-content">
+      <p class="dimension-page-tag">My biography</p>
+      <h1 id="about-page-title" tabindex="-1">Who Am I?</h1>
+      <p class="about-page-name"></p>
+      <div class="about-page-bio dimension-page-reflection editable-block" contenteditable="true"></div>
+      <p class="card-label">The parts of me</p>
+      <div class="about-page-identity editable-list"></div>
+      <blockquote class="quote about-page-quote">
+        <span aria-hidden="true">“</span>
+        <p class="about-page-quote-text" contenteditable="true"></p>
+        <cite class="about-page-quote-author" contenteditable="true"></cite>
+      </blockquote>
+    </div>
+    <p class="about-sound-status sound-status sr-only" aria-live="polite"></p>
+  </section>
+
+  <section class="dimension-page" id="dimension-page" role="dialog" aria-modal="true" aria-labelledby="dimension-page-title" hidden>
+    <div class="dimension-page-top">
+      <button class="dimension-back" type="button"><span aria-hidden="true">←</span> Back</button>
+      <p class="dimension-page-index"></p>
+    </div>
+    <div class="dimension-page-content">
+      <p class="dimension-page-tag"></p>
+      <h1 id="dimension-page-title" tabindex="-1"></h1>
+      <p class="dimension-page-prompt"></p>
+      <div class="dimension-page-reflection editable-block" contenteditable="true"></div>
+      <div class="dimension-page-navigation">
+        <button class="dimension-previous" type="button">← Previous page</button>
+        <button class="dimension-next" type="button">Next page →</button>
+      </div>
+    </div>
+    <p class="sound-status sr-only" aria-live="polite"></p>
+  </section>
+  <section class="dimension-page" id="future-page" role="dialog" aria-modal="true" aria-labelledby="future-page-title" hidden>
+    <div class="dimension-page-top">
+      <button class="future-back dimension-back" type="button"><span aria-hidden="true">←</span> Back</button>
+      <p class="future-page-index dimension-page-index"></p>
+    </div>
+    <div class="dimension-page-content">
+      <p class="future-page-tag dimension-page-tag"></p>
+      <h1 id="future-page-title" tabindex="-1"></h1>
+      <p class="future-page-prompt dimension-page-prompt"></p>
+      <div class="future-page-reflection dimension-page-reflection editable-block" contenteditable="true"></div>
+      <div class="dimension-page-navigation">
+        <button class="future-previous" type="button">← Previous goal</button>
+        <button class="future-next" type="button">Next goal →</button>
+      </div>
+    </div>
+    <p class="future-sound-status sound-status sr-only" aria-live="polite"></p>
+  </section>
+  <div class="page-transition" aria-hidden="true"></div>
+  <button class="old-tv-widget" id="old-tv-widget" type="button" aria-label="Turn the old television">
+    <canvas class="old-tv-canvas" aria-hidden="true"></canvas>
+    <span class="old-tv-status sr-only" role="status" aria-live="polite">Loading the old television.</span>
+  </button>
+
+  <footer>
+    <p>My Journey of Self-Discovery</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+  <script type="module" src="old-tv.js"></script>
+</body>
+</html>
