@@ -104,7 +104,7 @@ for (let index = 0; index < 80; index += 1) {
 
 const binaryRain = document.querySelector(".binary-rain");
 const binaryPatterns = ["101010", "0101"];
-const streamsPerSide = 50;
+const streamsPerSide = window.matchMedia("(max-width: 600px)").matches ? 10 : 50;
 const binaryStreamCount = streamsPerSide * 2;
 function shuffledDirections() {
   const directions = Array.from(
@@ -153,7 +153,7 @@ function leaveBinaryAfterimages() {
     binaryRain.appendChild(afterimage);
   });
 }
-window.setInterval(leaveBinaryAfterimages, 500);
+window.setInterval(leaveBinaryAfterimages, window.matchMedia("(max-width: 600px)").matches ? 1200 : 500);
 
 reveals.forEach((element) => {
   const delay = element.dataset.delay;
